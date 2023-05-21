@@ -1,0 +1,122 @@
+[
+    {
+        "img": "https://lzd-img-global.slatic.net/g/p/e026a63a9ea21615b96b8e11ac0d6de9.jpg_2200x2200q80.jpg_.webp",
+        "toyName": "Rage",
+        "price": 19.99,
+        "rating": 4.5,
+        "viewDetails": "Rage is a high-speed pull-back vehicle diecast racing model car that is perfect for toddlers and kids. This mini sports car is designed to provide endless fun and excitement for little ones who love to play with cars. It is made of high-quality materials and features a sleek design that is sure to capture the attention of any child. With its pull-back action, the car can race across any surface, making it perfect for both indoor and outdoor play. Whether it's a gift or a new addition to a toy car collection, Rage is sure to bring joy and entertainment to kids of all ages",
+        "subCategory": "Sports Car",
+        "availableQuantity": 10,
+        "category_id": 1
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS9aNK42N0eOU_Mq-9vneQxDhE3JJljgKi_w&usqp=CAU",
+        "toyName": "Rc Car",
+        "price": 14.99,
+        "rating": 4.2,
+        "viewDetails": "This sports car toy is built for speed and designed to thrill. With its sleek lines and aerodynamic profile, it's sure to turn heads. Kids will love racing it across any surface, from the living room floor to the backyard patio. Its compact size makes it easy to handle, while its powerful pull-back motor ensures that it can reach impressive speeds.",
+        "subCategory": "Sports Car",
+        "availableQuantity": 5,
+        "category_id": 1
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRNKFPrCX1e87CB29jpCshoX1zirngFPVhuJQ&usqp=CAU",
+        "toyName": "FC Ferari",
+        "price": 29.99,
+        "rating": 4.8,
+        "viewDetails": "This sports car toy is a true masterpiece of engineering. With its powerful engine and precision handling, it's ready to take on any challenge. Its durable construction means that it can withstand even the toughest play, while its smooth ride ensures that kids can enjoy hours of uninterrupted fun.",
+        "subCategory": "Sports Car",
+        "availableQuantity": 7,
+        "category_id": 1
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHhXoi5HxQbEWf_6FOla4OVM5sVM_sPzr_jQ&usqp=CAU",
+        "toyName": "Remote Control Car",
+        "price": 39.99,
+        "rating": 4.6,
+        "viewDetails": "Looking for a toy that's both stylish and fun? Look no further than this sports car toy, which combines sleek design with high-speed action. Its bright colors and bold graphics make it a visually striking toy that kids will love to show off to their friends. And with its pull-back motor, it's easy to get the car up to speed for thrilling races.",
+        "subCategory": "Sports Car",
+        "availableQuantity": 3,
+        "category_id": 1
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSj6ggBmgIS0RvsR52GTlMGaqCINr6JxE1dbQ&usqp=CAU",
+        "toyName": "Monster Mover",
+        "price": 19.99,
+        "rating": 4.5,
+        "viewDetails": "The Monster Mover mini truck toy is a rugged and powerful vehicle designed for off-road adventures. With its large wheels and sturdy construction, it can conquer any terrain. It features a realistic design with vibrant colors, making it visually appealing to kids who love trucks. This toy provides hours of imaginative play and allows children to create their own exciting trucking adventures.",
+        "subCategory": "Mini Truck",
+        "availableQuantity": 10,
+        "category_id": 2
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRFS86F3-Ac2M10N6Ukb8rNxucAUt8R64R3Iw&usqp=CAU",
+        "toyName": "Turbo Hauler",
+        "price": 14.99,
+        "rating": 4.2,
+        "viewDetails": "The Turbo Hauler mini truck toy is all about speed and hauling action. Equipped with turbocharged engines, this toy truck can race around with lightning-fast speed. It comes with a detachable trailer that can be loaded with smaller vehicles or cargo. The Turbo Hauler toy is perfect for children who enjoy high-speed races and transporting goods, encouraging imaginative play and creative storytelling.",
+        "subCategory": "Mini Truck",
+        "availableQuantity": 5,
+        "category_id": 2
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQS8MXR36GhFnk9PdzF46ikaFf0F3VMN9b6_w&usqp=CAU",
+        "toyName": "construction Cruiser",
+        "price": 29.99,
+        "rating": 4.8,
+        "viewDetails": "The Construction Cruiser mini truck toy is ideal for little builders and aspiring construction workers. It features a realistic construction truck design with a movable crane and other construction accessories. Children can use the crane to lift and transport small objects, simulating construction activities. This toy helps kids develop fine motor skills and encourages role-playing as they become builders and engineers on their imaginative construction sites.",
+        "subCategory": "Mini Truck",
+        "availableQuantity": 7,
+        "category_id": 2
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKqLawNGEPgIhMSAJNsMknJsRw4CEplwLxPg&usqp=CAU",
+        "toyName": "Rescue Ranger",
+        "price": 39.99,
+        "rating": 4.6,
+        "viewDetails": "The Rescue Ranger mini truck toy is a heroic vehicle designed for exciting rescue missions. With its emergency lights, siren sounds, and rescue-themed decals, it creates an immersive rescue play experience. This truck comes equipped with various rescue tools and accessories, such as a detachable stretcher and rescue ropes. Children can use their creativity to come up with thrilling rescue scenarios, providing a sense of adventure and heroism during playtime.",
+        "subCategory": "Mini Truck",
+        "availableQuantity": 3,
+        "category_id": 2
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTKEUfiLFX1SEyDLRGj9jDLyN6Zs2h-lQCtHS-yTq2ogxiQlg9f-9gO9mYwikc4EdHQGIY&usqp=CAU",
+        "toyName": "Patrol Pursuit",
+        "price": 34.99,
+        "rating": 4.3,
+        "viewDetails": "The Patrol Pursuit police car toy is designed for high-speed chases and law enforcement adventures. With its sleek design, flashing lights, and realistic siren sounds, it creates an immersive police experience. Equipped with a pull-back motor, this toy car can zoom across the floor, giving children the thrill of catching the bad guys. It's perfect for kids who enjoy role-playing as police officers and enjoy exciting chase scenarios.",
+        "subCategory": "Police Car",
+        "availableQuantity": 6,
+        "category_id": 3
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQgJ6xTtlnSFeLvQ8FE9GTIyEoHWtLkkwQaJQ&usqp=CAU",
+        "toyName": "Rapid Response",
+        "price": 49.99,
+        "rating": 4.7,
+        "viewDetails": "The Rapid Response police car toy is a versatile and quick-response vehicle for any emergency situation. It features a compact design, making it agile and maneuverable. With its opening doors and trunk, kids can place their mini police figures inside and gear up for action. The Rapid Response toy car encourages imaginative play and lets children create their own thrilling police adventures.",
+        "subCategory": "Police Car",
+        "availableQuantity": 3,
+        "category_id": 3
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTqP0Eu8iS8x46kXAHJPuYPQdx1yKsMxCsoOg&usqp=CAU",
+        "toyName": "Crime Bluster",
+        "price": 19.99,
+        "rating": 4.1,
+        "viewDetails": "The Crime Buster police car toy is the ultimate crime-fighting vehicle. It comes equipped with various police accessories, such as a removable roof rack with handcuffs, a megaphone, and a police radio. With its sturdy construction and realistic detailing, this toy car is ready to tackle any criminal activity in the imaginary city. The Crime Buster toy sparks creativity and helps children develop storytelling skills as they play the role of a brave police officer.",
+        "subCategory": "Police Car",
+        "availableQuantity": 10,
+        "category_id": 3
+    },
+    {
+        "img": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQUzoYiLBjeZnWkJbhH2F4C5GkOn0EWDDchHg&usqp=CAU",
+        "toyName": "Elite Enforcer",
+        "price": 14.99,
+        "rating": 4.5,
+        "viewDetails": "The Elite Enforcer police car toy is a powerful and authoritative vehicle designed for law enforcement tasks. It features a robust build, oversized wheels, and a bold design, giving it an intimidating presence on the streets. With its working headlights and sound effects, this toy car creates an immersive play experience. The Elite Enforcer toy encourages kids to enforce justice and maintain law and order in their imaginative play scenarios.",
+        "subCategory": "Police Car",
+        "availableQuantity": 8,
+        "category_id": 3
+    }
+]
