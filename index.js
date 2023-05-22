@@ -71,11 +71,25 @@ async function run() {
             console.log(results);
             res.send(results);
         })
+        app.get('/myproducts', async (req, res) => {
+            const email = req.query.email;
+            console.log(email)
+            const query = {
+                email: email
+            }
+            const results = await car.find(query).toArray();
+            console.log(results);
+            res.send(results);
+        })
         app.post('/productadd', async (req, res) => {
             const data = req.body;
-
-            const resut = await car.insertOne(data);
-            res.send(resut);
+            const result = await car.insertOne(data);
+            res.send(result);
+        })
+        app.post('/updateItem', async (req, res) => {
+            const data = req.body;
+            const result = await car.insertOne(data);
+            res.send(result);
         })
 
 
