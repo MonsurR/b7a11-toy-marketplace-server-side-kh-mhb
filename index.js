@@ -106,7 +106,9 @@ async function run() {
 }
 run().catch(console.dir);
 
-
+app.get('/', (req, res) => {
+    res.send('Baby Corner Shop')
+});
 app.listen(port, () => {
     console.log(`Baby Corner Shop  Crud on ${port}`)
 })
