@@ -39,7 +39,7 @@ const car = require('./data/car.json');
 
 // });
 
-const { MongoClient, ServerApiVersion } = require('mongodb');
+const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri = `mongodb+srv://mahmudulhasanw3b:${process.env.MONGO_PASSWORD}@cluster0.skf8emk.mongodb.net/?retryWrites=true&w=majority`;
 // Create a MongoClient with a MongoClientOptions object to set the Stable API version
 const client = new MongoClient(uri, {
@@ -55,6 +55,7 @@ async function run() {
         await client.connect();
         const database = client.db("sportscar");
         const car = database.collection("car");
+        const categories = database.collection('categories');
 
         app.get('/cars', async (req, res) => {
             const results = await car.find().toArray();
@@ -65,9 +66,19 @@ async function run() {
             const id = req.params.id;
             console.log(id);
             const query = {
-                category_id: id
+                category: id
             }
             const results = await car.find(query).toArray();
+            console.log(results);
+            res.send(results);
+        })
+        app.get('/details/:id', async (req, res) => {
+            const id = req.params.id;
+            console.log(id);
+            const query = {
+                _id: new ObjectId(id)
+            }
+            const results = await car.findOne(query);
             console.log(results);
             res.send(results);
         })
@@ -88,7 +99,32 @@ async function run() {
         })
         app.post('/updateItem', async (req, res) => {
             const data = req.body;
-            const result = await car.insertOne(data);
+
+            const filter = { _id: new ObjectId(data._id) }
+            const options = { upsert: true };
+            const updateDoc = {
+                $set: {
+                    price: data.price,
+                    rating: data.rating,
+                    quantity: data.quantity,
+                    details: data.details
+                },
+            };
+
+            const result = await car.updateOne(filter, updateDoc, options);
+            console.log(result)
+            res.send(result);
+        })
+        app.delete(`/deleteitem`, async (req, res) => {
+            const id = req.query.id;
+            const query = { _id: new ObjectId(id) }
+            // console.log(query);
+            const result = await car.deleteOne(query)
+            res.send(result)
+        })
+        app.get('/categories', async (req, res) => {
+
+            const result = await categories.find().toArray;
             res.send(result);
         })
 
