@@ -6,8 +6,6 @@ const port = process.env.PORT || 5000;
 app.use(cors());
 app.use(express.json());
 
-const categories = require('./data/categories.json');
-const car = require('./data/car.json');
 
 
 
