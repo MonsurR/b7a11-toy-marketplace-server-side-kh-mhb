@@ -9,35 +9,7 @@ app.use(express.json());
 const categories = require('./data/categories.json');
 const car = require('./data/car.json');
 
-// app.get('/', (req, res) => {
-//     res.send('Baby Corner Shop')
-// });
-// app.get('/categories', (req, res) => {
-//     res.send(categories);
-// })
-// app.get('/car', (req, res) => {
-//     res.send(car);
 
-// })
-// app.get('/car/:id', (req, res) => {
-//     const id = req.params.id;
-
-//     const selectedCar = car.find(n => n._id === id);
-//     res.send(selectedCar);
-// });
-// app.get('/categories/:id', (req, res) => {
-//     const id = parseInt(req.params.id);
-//     if (id === 0) {
-//         res.send(car);
-//     }
-//     else {
-//         const categoryCar = car.filter(n => parseInt(n.category_id) === id);
-
-//         res.send(categoryCar);
-
-//     }
-
-// });
 
 const { MongoClient, ServerApiVersion, ObjectId } = require('mongodb');
 const uri = `mongodb+srv://mahmudulhasanw3b:${process.env.MONGO_PASSWORD}@cluster0.skf8emk.mongodb.net/?retryWrites=true&w=majority`;
