@@ -65,7 +65,9 @@ async function run() {
         app.get('/catagorywise/:id', async (req, res) => {
             const id = req.params.id;
             console.log(id);
-
+            const query = {
+                category: id
+            }
             const results = await car.find(query).toArray();
             console.log(results);
             res.send(results);
